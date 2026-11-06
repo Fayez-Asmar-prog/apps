@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "versionCode": 2,
+  "version": "1.5.0",
+  "versionCode": 6,
   "developer": "Asmar",
-  "releaseNotes": "تحديث جديد لحاسبة أبو عرب: إضافة ميزات المشاريع والعمال والسلف وحسابات أصحاب الورش والتحديث التلقائي.",
+  "releaseNotes": "تحديث جديد لحاسبة أبو عرب: ميزات المشاريع والعمال والسلف وحسابات أصحاب الورش والتحديث التلقائي.",
   "apkUrl": "https://github.com/Fayez-Asmar-prog/apps/releases/download/v1.2.0/hasibat-abuarab.apk"
 }
