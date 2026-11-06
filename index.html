@@ -39,8 +39,7 @@
     .features li span { color: var(--accent-green); font-weight: bold; }
     .btn-download { display: flex; align-items: center; justify-content: center; gap: 10px; background: linear-gradient(135deg, #10B981, #059669); color: #FFF; text-decoration: none; font-size: 1.05rem; font-weight: 700; padding: 14px 20px; border-radius: 12px; transition: opacity 0.2s; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3); }
     .btn-download:hover { opacity: 0.92; }
-    .btn-secondary { background: #243049; color: #FFF; box-shadow: none; }
-    .btn-secondary:hover { background: #2E3E5E; }
+    .btn-calc { background: linear-gradient(135deg, #F59E0B, #D97706); box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3); }
     footer { text-align: center; margin-top: 60px; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border-color); padding-top: 25px; }
   </style>
 </head>
@@ -53,37 +52,14 @@
     </header>
 
     <div class="grid">
-      <!-- تطبيق حاسبة أبو عرب -->
-      <div class="card">
-        <div>
-          <div class="card-header">
-            <div class="app-icon icon-calc">🏗️</div>
-            <div class="app-title">
-              <h2>حاسبة أبو عرب</h2>
-              <span class="version-tag">الإصدار v1.0.0 • أندرويد</span>
-            </div>
-          </div>
-          <p class="desc">تطبيق متخصص للمهندسين والمقاولين لإدارة يوميات عمال الورشات والمشاريع، تسجيل السلف النقدية، وتصفية المستحقات بنقرة زر مع كشف حساب للواتساب.</p>
-          <ul class="features">
-            <li><span>✓</span> حساب آلي لصافي المستحقات وخصم السلف</li>
-            <li><span>✓</span> يعمل 100% بدون إنترنت (Offline)</li>
-            <li><span>✓</span> متوافق مع سامسونج وشاومي وهواوي</li>
-            <li><span>✓</span> تحديثات تلقائية ذكية عبر منصة أسمر</li>
-          </ul>
-        </div>
-        <a href="./hasibat-abuarab/hasibat-abuarab.apk" class="btn-download">
-          📥 تحميل تطبيق حاسبة أبو عرب (APK)
-        </a>
-      </div>
-
-      <!-- تطبيق صلاتي -->
+      <!-- تطبيق صلاتي (شغال ومربوط بالرابط المباشر الآن!) -->
       <div class="card">
         <div>
           <div class="card-header">
             <div class="app-icon icon-salati">🕌</div>
             <div class="app-title">
               <h2>تطبيق صلاتي</h2>
-              <span class="version-tag">الإصدار v1.0.0 • أندرويد</span>
+              <span class="version-tag">الإصدار v1.1.0 • أندرويد متوفر</span>
             </div>
           </div>
           <p class="desc">تطبيقك الإسلامي الشامل لمواقيت الصلاة الدقيقة، اتجاه القبلة، القرآن الكريم، وأذكار الصباح والمساء بتصميم هادئ وبدون أي إعلانات مزعجة.</p>
@@ -91,17 +67,40 @@
             <li><span>✓</span> مواقيت صلاة دقيقة مع تنبيهات الأذان</li>
             <li><span>✓</span> القرآن الكريم كاملاً وتحديد القبلة</li>
             <li><span>✓</span> أذكار المسلم اليومية والتسبيح</li>
-            <li><span>✓</span> مجاني بالكامل وخفيف على الهاتف</li>
+            <li><span>✓</span> متوافق مع سامسونج وشاومي وهواوي</li>
           </ul>
         </div>
-        <a href="./salati/salati.apk" class="btn-download btn-secondary">
-          📥 تحميل تطبيق صلاتي (APK)
+        <a href="https://github.com/Fayez-Asmar-prog/salati-mobile/releases/download/v1.1.0/salati_asmar.apk" class="btn-download">
+          📥 تحميل تطبيق صلاتي APK (v1.1.0)
+        </a>
+      </div>
+
+      <!-- تطبيق حاسبة أبو عرب -->
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <div class="app-icon icon-calc">🏗️</div>
+            <div class="app-title">
+              <h2>حاسبة أبو عرب</h2>
+              <span class="version-tag">الإصدار v1.0.0 • قيد الإطلاق</span>
+            </div>
+          </div>
+          <p class="desc">تطبيق متخصص للمهندسين والمقاولين لإدارة يوميات عمال الورشات والمشاريع، تسجيل السلف النقدية، وتصفية المستحقات بنقرة زر مع كشف حساب للواتساب.</p>
+          <ul class="features">
+            <li><span>✓</span> حساب آلي لصافي المستحقات وخصم السلف</li>
+            <li><span>✓</span> يعمل 100% بدون إنترنت (Offline)</li>
+            <li><span>✓</span> متوافق مع سامسونج وشاومي وهواوي</li>
+            <li><span>✓</span> تحديثات تلقائية ذكية عبر هذا الموقع</li>
+          </ul>
+        </div>
+        <a href="./hasibat-abuarab/hasibat-abuarab.apk" class="btn-download btn-calc">
+          ⏳ جاري إطلاق النسخة الأولى قريباً
         </a>
       </div>
     </div>
 
     <footer>
-      <p>جميع الحقوق محفوظة © أسمر للتطبيقات 2026 • تحديثات سحابية مجانية</p>
+      <p>جميع الحقوق محفوظة © أسمر للتطبيقات 2026 • منصة التطبيقات المجانية</p>
     </footer>
   </div>
 </body>
