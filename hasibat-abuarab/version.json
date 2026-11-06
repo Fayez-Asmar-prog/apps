@@ -1,7 +1,7 @@
 {
-  "version": "1.5.0",
-  "versionCode": 6,
+  "version": "2.0.0",
+  "versionCode": 5,
   "developer": "Asmar",
-  "releaseNotes": "تحديث جديد لحاسبة أبو عرب: ميزات المشاريع والعمال والسلف وحسابات أصحاب الورش والتحديث التلقائي.",
-  "apkUrl": "https://github.com/Fayez-Asmar-prog/apps/releases/download/v1.2.0/hasibat-abuarab.apk"
+  "releaseNotes": "أحدث إصدار رسمي من حاسبة العمال: ميزات المشاريع والعمال والسلف والنسخ الاحتياطي.",
+  "apkUrl": "https://github.com/Fayez-Asmar-prog/apps/releases/download/v2.0.0/hasibat-alummal.apk"
 }
